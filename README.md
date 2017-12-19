@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/danielsdeboer/runnable.svg?branch=master)](https://travis-ci.org/danielsdeboer/runnable)
+[![Latest Stable Version](https://poser.pugx.org/aviator/runnable/v/stable)](https://packagist.org/packages/aviator/runnable).[![License](https://poser.pugx.org/aviator/runnable/license)](https://packagist.org/packages/aviator/runnable)
+
 ## Overview
 
 This package provides a static constructor and handler interface, and a trait that implements the interface.
