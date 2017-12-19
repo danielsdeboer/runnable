@@ -1,0 +1,41 @@
+{
+    "name": "aviator/runnable",
+    "type": "library",
+    "description": "Static constructor and handler trait with interface.",
+    "keywords": [
+        "php",
+        "php7",
+        "constructor",
+        "static"
+    ],
+    "homepage": "https://github.com/danielsdeboer/runnable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel S. Deboer",
+            "email": "daniel.s.deboer@gmail.com",
+            "homepage": "https://aviatorcreative.ca",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Aviator\\Runnable\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0",
+        "aviator/makeable": "^0.1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.4.0"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Aviator\\Runnable\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    }
+}
